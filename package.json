@@ -1,0 +1,22 @@
+{
+  "private": true,
+  "name": "maker",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
+  },
+  "dependencies": {
+    "bootstrap": "^4.4.1",
+    "next": "latest",
+    "react": "^17.0.2",
+    "react-bootstrap": "^1.0.1",
+    "react-dom": "^17.0.2",
+    "react-icheck": "^0.3.8",
+    "react-icons": "^4.3.1",
+    "sass": "^1.49.9"
+  },
+  "devDependencies": {
+    "cypress": "^9.5.1"
+  }
+}

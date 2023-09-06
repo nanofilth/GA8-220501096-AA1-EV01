@@ -1,0 +1,12 @@
+.smlcard{
+    margin: 1rem 0;
+    width: 100%;
+}
+.smlcard svg{
+    color: #9f32a9!important;  
+}
+
+.smlcard small{
+    color: #9f32a9!important;
+    font-size: xx-small;
+}

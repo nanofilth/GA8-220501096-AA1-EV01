@@ -1,0 +1,133 @@
+/* ensure all pages have Bootstrap CSS */
+@import '~bootstrap/dist/css/bootstrap.min.css';
+
+.md-container {
+  max-width: 800px;
+  padding-top: 2rem;
+}
+
+.sml-card {
+  width: 40rem;
+  margin: 1rem 0;
+}
+
+.sml-logo {
+  height: 1em;
+  margin-left: 10px;
+}
+
+h1 a{
+  color: #9f32a9!important;
+}
+
+h1 a:hover{
+  text-decoration: none;
+}
+
+.subtitle{
+  font-weight: 500;
+  font-size: x-small;
+}
+
+/* .subtitle img{  
+  max-width: 32px;
+} */
+
+footer a{  
+  color: gray;
+}
+
+footer a:hover{
+  color: #9f32a9!important;
+  text-decoration: none;
+}
+
+footer a svg, footer a span, .detail-section svg{
+  color: #9f32a9!important;
+}
+
+.card-text p{
+  padding-bottom: 0.5rem !important;
+  border-bottom: solid 0.005rem #c7c7c7 !important;
+}
+
+.other-section .card{
+  width: 100%;
+  margin-bottom: 1rem;
+}
+
+.detail-section-global{
+  width: 15rem;
+  position: absolute;
+  right: 5rem;
+}
+.detail-section
+{
+  height: 22.5rem;
+  top: 1rem;
+  padding: 0.7rem;
+  border: 1px solid rgba(0,0,0,.125);
+  border-radius: 0.25rem;
+}
+.detail-section .head-detail{
+  padding: 0.7rem;
+}
+.detail-section .body-detail{
+  overflow: scroll;
+  overflow-x: hidden;
+  overflow-y: scroll;
+  height: 16rem;
+}
+
+.product-section p{
+  
+    color: gray;
+}
+
+
+.radio-group-label {
+  display: block;
+  width: 100%;
+  margin: 10px 0;
+}
+
+.radio-label {
+  position: relative;
+  display: inline-block;
+  margin: 10px;
+}
+@media (max-width: 48em) {
+  .radio-label {
+    display: block;
+    margin: 10px 0;
+  }
+}
+.radio-label input {
+  opacity: 0;
+}
+.radio-label .inner-label {
+  position: relative;
+  display: inline-block;
+  padding-left: 40px;
+  font-size: 0.9rem;
+}
+.radio-label .inner-label:before {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  border-bottom: 1px dashed gray;
+  width: 30px;
+  transition: border-bottom 0.5s ease;
+}
+.radio-label input:focus ~ .inner-label:before {
+  border-bottom: 0.1rem solid #9f32a9;
+}
+.radio-label input:checked ~ .inner-label:after {
+  content: "✓";
+  color: #9f32a9;
+  position: absolute;
+  font-size: 1rem;
+  font-weight: bold;
+  left: 9px;
+}

@@ -1,0 +1,11 @@
+.displayone{
+    font-size: 6.5rem;
+    font-weight: 300;
+    line-height: 1.2;
+}
+
+.displayone small{
+    font-size: xx-small;
+    color: gray;
+    font-weight: 700;
+}

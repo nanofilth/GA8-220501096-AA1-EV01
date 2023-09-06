@@ -1,0 +1,13 @@
+.selected {
+    color: #9f32a9!important;
+    font-weight: 500;
+  }
+  
+.langtopbar a:hover{
+    text-decoration: none;
+    color: #9f32a9!important;  
+}
+  
+.langtopbar a{
+    color:gray; 
+  }
